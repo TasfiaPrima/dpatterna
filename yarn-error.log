@@ -1,0 +1,99 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\app\ASUS\product\18.0.0\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\sqllite3;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\php-8.0.7;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\xampp\php;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python39\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;C:\Users\ASUS\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ASUS\AppData\Local\atom\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Local\GitHubDesktop\bin;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Users\ASUS\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\design patterns lab\lab_3\dpatterna\package.json: Unexpected token < in JSON at position 1679
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@dpatterna/typescript",
+    "version": "1.0.0",
+    "description": "degin pattern exercises in Typescript.",
+    "author": "mmncit",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mmncit/dpatterna.git"
+    },
+    "devDependencies": {
+      "@types/crypto-js": "^4.0.2",
+      "@types/jest": "^24.0.18",
+      "@types/node": "^12.7.12",
+      "@types/ramda": "^0.26.41",
+      "@typescript-eslint/eslint-plugin": "^2.3.3",
+      "@typescript-eslint/parser": "^2.3.3",
+      "eslint": "^6.5.1",
+      "eslint-plugin-import": "^2.18.2",
+      "typescript": "^3.8.0",
+      "@types/page": "^1.8.0",
+      "css-loader": "^3.6.0",
+      "jest": "^26.1.0",
+      "mini-css-extract-plugin": "^0.9.0",
+      "prettier": "^2.0.5",
+      "prettier-plugin-svelte": "^1.1.0",
+      "raw-loader": "^4.0.1",
+      "style-loader": "^1.2.1",
+      "svelte-loader": "^2.13.6",
+      "ts-jest": "^26.1.1",
+      "ts-loader": "^7.0.5",
+      "tsconfig-paths-webpack-plugin": "^3.2.0",
+      "tslib": "^2.0.0",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.0",
+      "@types/three": "0.128.0"
+    },
+    "scripts": {
+      "test": "jest --coverage --config jest.config.js --silent",
+      "lint": "yarn lint:types && yarn lint:ci",
+      "lint:types": "yarn tsc --noEmit -p .",
+      "lint:ci": "eslint . --ext .tsx,.ts",
+      "test:dev": "jest --config jest.config.js",
+      "build": "webpack --mode=production",
+      "dev": "webpack --watch --mode=development",
+      "start": "webpack-dev-server --config webpack.config.js --history-api-fallback --content-base public"
+    },
+    "dependencies": {
+      "crypto-js": "^4.0.0",
+      "ramda": "^0.27.0",
+      "svelte": "^3.38.3",
+  <<<<<<< Updated upstream
+      "page": "^1.11.6",
+      "three": "0.128.0"
+    }
+  =======
+      "three": "0.128.0",
+      "unfetch": "^4.2.0"
+    },
+    "bugs": {
+      "url": "https://github.com/mmncit/dpatterna/issues"
+    },
+    "homepage": "https://github.com/mmncit/dpatterna#readme",
+    "main": ".prettier.js",
+    "keywords": [],
+    "license": "ISC"
+  >>>>>>> Stashed changes
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
